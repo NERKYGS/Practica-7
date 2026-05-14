@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Constructora Morgon</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/empresa.css">
+    <link rel="stylesheet" href="css/servicios.css">
 </head>
 <body>
 
@@ -22,8 +22,8 @@
         <nav class="navbar">
             <ul>
                 <li><a href="index.html" >Inicio</a></li>
-                <li><a href="empresa.html" class="active">La Empresa</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="empresa.html">La Empresa</a></li>
+                <li><a href="servicios.html" class="active">Servicios</a></li>
                 <li><a href="serviciosExpress.html">Servicios Express</a></li>
                 <li><a href="contacto.html">Contáctanos</a></li>
             </ul>
@@ -38,53 +38,66 @@
         </div>
     </header>
 
-   
-    <!-- CONTENIDO PRINCIPAL: Información sobre la empresa (Misión, Visión, Valores) -->
+    <!-- CONTENIDO PRINCIPAL: La información que destaca en la página de inicio -->
     <main class="main-content">
+        
         <div class="page-container">
-            <!-- Título principal de la sección -->
+
             <div class="section-title">
-                <h2>Nuestra Empresa</h2>
-                <p>Más de dos décadas forjando el paisaje urbano con solidez y confianza.</p>
-            </div>
-            
-            <!-- Sección Misión: Diseño en zig-zag (imagen a la izquierda, texto a la derecha) -->
-            <div class="zigzag-row">
-                <div class="zigzag-image">
-                    <img src="img/empresa/mision.jpg" alt="Misión Constructora Morgon">
-                </div>
-                <div class="zigzag-content">
-                    <img src="iconos/mision.png" alt="Icono" class="section-icon">
-                    <h3>Misión</h3>
-                    <p>Desarrollar proyectos de construcción con los más altos estándares de calidad, seguridad y eficiencia, superando las expectativas de nuestros clientes mediante el uso de tecnología de punta y personal altamente capacitado.</p>
-                </div>
+                <h2>Nuestros Servicios</h2>
+                <p>Soluciones integrales de ingenieria para cada etapa de tu proyecto.</p>
             </div>
 
-            <!-- Sección Visión: Diseño en zig-zag invertido (texto a la izquierda, imagen a la derecha) -->
-            <div class="zigzag-row reverse">
-                <div class="zigzag-image">
-                    <img src="img/empresa/vision.jpg" alt="Visión Constructora Morgon">
+            <div class="services-grid-large">
+                <div class="service-card-large">
+                    <img src="img/servicios/tipo-construccion.jpg" alt="Obre civil" class="service-img">
+                    <div class="service-body">
+                        <img src="iconos/construccion.png" alt="Icono" class="section-icon">
+                        <h3>Tipos de Construcción</h3>
+                        <p>Especialistas en obra civil pesada, desarrollamos residencias de lujo, 
+                            construcción de naves insdutriales y plazas comerciales</p>
+                    </div>
                 </div>
-                <div class="zigzag-content">
-                    <img src="iconos/vision.png" alt="Icono" class="section-icon">
-                    <h3>Visión</h3>
-                    <p>Ser la constructora líder a nivel nacional, reconocida por nuestra innovación arquitectónica, solidez financiera y nuestro inquebrantable compromiso con el desarrollo sustentable y la sociedad.</p>
+
+                <div class="service-card-large">
+                    <img src="img/servicios/cotizacion.jpg" alt="cotizaciones" class="service-img">
+                    <div class="service-body">
+                        <img src="iconos/cotizacion.png" alt="Icono" class="section-icon">
+                        <h3>Cotizaciones Precisas</h3>
+                        <p>Realizamos analisis exhaustivos de costos, presupuestos detallaos por partida
+                            y proyecciones financieras totalmente trasnparentes para la obra
+                        </p>
+                    </div>
                 </div>
+
+                <div class="service-card-large">
+                    <img src="img/servicios/creditos.jpg" alt="creditos" class="service-img">
+                    <div class="service-body">
+                        <img src="iconos/credito.png" alt="Icono" class="section-icon">
+                        <h3>Creditos y Financiamineto</h3>
+                        <p>Mantenemos alianzas estrategicas con las principales instituciones financieras 
+                            para otrogarte creditos directos y esquemas de pago a tu medida.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card-large">
+                    <img src="img/servicios/visita.jpg" alt="Visitas Guiadas" class="service-img">
+                    <div class="service-body">
+                        <img src="iconos/visitas.png" alt="Icono" class="section-icon">
+                        <h3>Visitas Guiadas</h3>
+                        <p>
+                            La transparencia es vital. Programa tu visita a neustras obras en desarrollo 
+                            acompañado de nuestros ingenieros para comprobar nuestra calidad.
+                        </p>
+                    </div>
+                </div>
+                
             </div>
 
-            <!-- Sección Valores: Retoma el diseño original (imagen a la izquierda) -->
-            <div class="zigzag-row">
-                <div class="zigzag-image">
-                    <img src="img/empresa/valores.png" alt="Valores Constructora Morgon">
-                </div>
-                <div class="zigzag-content">
-                    <img src="iconos/valores.png" alt="Icono" class="section-icon">
-                    <h3>Valores</h3>
-                    <p>Nuestros cimientos morales son tan fuertes como los de nuestras obras: <strong>Integridad</strong>, <strong>Trabajo en Equipo</strong>, <strong>Seguridad Integral</strong>, <strong>Excelencia Operativa</strong> y un <strong>Compromiso Total</strong> con el cliente.</p>
-                </div>
-            </div>
         </div>
-    </main>
+
+    </main> 
 
     <!-- PIE DE PÁGINA: Enlaces, redes sociales e información de contacto -->
     <footer class="footer">
