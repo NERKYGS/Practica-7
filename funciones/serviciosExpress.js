@@ -56,7 +56,25 @@
         }
     ];
 
+function mostrarServicios(lista) {
+    const contenedor = document.getElementById('contenedor-grid');
+    if (!contenedor) return;
+    
+    contenedor.innerHTML = '';
 
+    lista.forEach(servicio => {
+        contenedor.innerHTML += `
+            <div class="servicio-card">
+                <img src="${servicio.imagen}" alt="${servicio.nombre}">
+                <div style="padding: 15px;">
+                    <h3>${servicio.nombre}</h3>
+                    <p>${servicio.categoria}</p>
+                    <button onclick="verDetalles(${servicio.id})" class="cta-button">Ver Detalles</button>
+                </div>
+            </div>
+        `;
+    });
+}
 function verDetalles(id) {
     const servicio = serviciosExpress.find(s => s.id === id);
     const modal = document.getElementById('modalServicio');
